@@ -2,7 +2,7 @@
 
 Step1: Added this on appModule --> import { FormsModule } from '@angular/forms';
 Step2: <input type="text" [(ngModel)]="name"/> 
-		   <p>{{name}}</p>
+		   <p>{{name}}</p> -----
 Step3: Added this on appComponent public name = 'Kumar';
 
 # FoodAngularApp
