@@ -1,9 +1,13 @@
-# Two-Way-Binding
+# Bootstarp Added
 
-Step1: Added this on appModule --> import { FormsModule } from '@angular/forms';
-Step2: <input type="text" [(ngModel)]="name"/>
-		<p>{{name}}</p>
-Step3: Added this on appComponent public name = 'Kumar';
+ modified:   
+		angular.json // added this line in under styles Array "node_modules/bootstrap/dist/css/bootstrap.min.css",
+        modified:   package-lock.json // Package-Update
+        modified:   package.json // Package-Update
+        modified:   src/app/app.component.html // for bootstrap testing added some html code
+        modified:   src/app/app.component.ts  // 
+        modified:   src/app/app.module.ts
+
 
 # FoodAngularApp
 
